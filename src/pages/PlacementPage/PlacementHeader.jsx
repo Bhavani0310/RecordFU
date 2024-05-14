@@ -59,7 +59,7 @@ const PlacementHeader = () => {
       payload: formData,
       success: (res) => {
         alert("Successfully Job Added");
-        window.location.reload();
+       
       },
       error: (err) => {
         alert("Error Occurred Try After Some Time");

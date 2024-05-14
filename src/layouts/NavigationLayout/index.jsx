@@ -436,7 +436,7 @@ function LogoutComponent() {
   authApi.handleLogout({
     success: (res) => {
       alert("SuccessFully logged Out ");
-      window.location.reload();
+      // window.location.reload();
     },
     error: (err) => {
       alert("Error Occurred in Logout");

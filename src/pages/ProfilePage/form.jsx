@@ -62,7 +62,7 @@ const FormComponent = () => {
       payload: updatedUserData,
       success: (res) => {
         setKey((prevKey) => prevKey + 1);
-        window.location.reload();
+        alert("Success")
       },
       error: (err) => {
         alert("Error Occurred Try After Some Time");

@@ -153,7 +153,7 @@ function FormComponent({user,onSubmit}) {
       success:(res)=>{
         
         alert("Profile Updated Successfully")
-        window.location.reload();
+        // window.location.reload();
       },
       error:(err)=>{
         alert("Error Occurred Try After Some Time")
@@ -163,7 +163,7 @@ function FormComponent({user,onSubmit}) {
       success:(res)=>{
         
         alert("User Added Successfully")
-        window.location.reload();
+        // window.location.reload();
       },error:(err)=>{
         alert("Error Occurred Try After Some Time")
       }

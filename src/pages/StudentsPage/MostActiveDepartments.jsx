@@ -37,7 +37,8 @@ const MostActiveDepartments = () => {
     authApi.postAddStudent({
       payload: formData,
       success: (res) => {
-        window.location.reload();
+        alert("SuccessFully Added Student")
+        // window.location.reload();
       },
       error: (err) => {
         alert("Error Occurred Try After Some Time");
