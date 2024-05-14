@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* default behaviour */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.center {
+    @apply tw-flex tw-justify-center tw-items-center
+}
+
+/* home panel font */
+.panel_font {
+    @apply tw-text-base tw-leading-6 tw-font-semibold
+}
+
+.panel_btn {
+    @apply tw-capitalize tw-flex tw-items-center tw-content-center tw-w-40 tw-py-1 tw-my-4 tw-gap-4
+}
+
+/* placement */
+/* Titles */
+.sub_title {
+    @apply tw-font-bold tw-text-[#fff] tw-capitalize tw-text-2xl
+}
+
+.border_light {
+    @apply tw-border-2 tw-rounded-lg tw-border-lightGray
+}

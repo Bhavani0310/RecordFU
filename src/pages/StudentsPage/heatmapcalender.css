@@ -1,0 +1,58 @@
+.heatmap-calendar,
+.heatmap-week-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* 7 columns for days of the week */
+    gap: 5px;
+    row-gap: 10px;
+    /* Gap between calendar cells */
+}
+
+.heatmap-week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 39px;
+    border-radius: 10px;
+    cursor: default;
+    color: #EB7C49;
+
+}
+
+.heatmap-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.empty-day {
+    background-color: transparent;
+}
+
+.first-order {
+    color: linear-gradient(180deg, #EB7C49 -0.55%, #F04F52 121.03%);
+    background-color: linear-gradient(180deg, #EB7C49 -0.55%, #F04F52 121.03%);
+
+
+    background: linear-gradient(180deg, #EB7C49 -0.55%, #F04F52 121.03%);
+
+}
+
+.second-order {
+    background-color: #f28f7b;
+}
+
+.third-order {
+    background-color: #f6b2a6;
+}
+
+.fourth-order {
+    background-color: #fde9e2;
+}
+
+

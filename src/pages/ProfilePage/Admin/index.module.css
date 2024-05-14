@@ -1,0 +1,13 @@
+.formWrapper input {
+  background-color: rgba(243, 243, 243, 1);
+  border: none;
+}
+
+.formWrapper select {
+  background-color: rgba(243, 243, 243, 1);
+  border: none;
+}
+
+.formWrapper label {
+  color: rgba(143, 143, 143, 1);
+}

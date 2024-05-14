@@ -1,0 +1,56 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.inputBox input {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-weight: 500;
+}
+
+.inputSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: -webkit-fill-available;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.inputWrapper div {
+  width: 100%;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(243, 243, 243, 1);
+  padding: 0rem 1rem;
+}
+
+.inputWrapper label {
+  color: rgba(143, 143, 143, 1);
+}
+
+.inputWrapper input {
+  width: inherit;
+  border: none;
+  background-color: inherit;
+}
+
+.saveBtn {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* background-color: rgba(235, 124, 73, 1) rgba(240, 79, 82, 1); */
+}
